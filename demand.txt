@@ -1,0 +1,42 @@
+I want to add a tool that will get data from an external api I define its url
+start with this :
+url : @https://app.sciencemadesimple.io/api/_integration/get_document 
+response :
+{
+	"ID": "ct13hjqcchrs715kgjl0",
+	"Name": "1. Faraday_ Translation d'une tige dans un B uniforme.pdf",
+	"Desc": "Ce cours offre une introduction",
+	"Role": "lessonAttachment",
+	"Tags": [
+		{
+			"ID": "gcvE8lJO61",
+			"Category": "level",
+			"LabelFr": "Niveau licence",
+			"LabelEn": "Undergraduate",
+			"Origin": "ai",
+			"CreatedAt": "2025-04-23T21:37:56Z",
+			"UpdatedAt": "2025-04-23T21:37:56Z",
+			"ArchivedAt": null
+		},
+	],
+	"AutoSync": false,
+	"PageCount": 17,
+	"ContentHash": "de6b52311b83a51a20f6d1680b79d51ef2dfc835325452d37310a118a71333af",
+	"URLs": {
+		"PdfURL": "url",
+		"PresentationURL": "url",
+		"ImageArchive100URL ":" url",
+		"ImageArchive300URL": " url",
+		"UploadPreviewArchiveURL": "url"
+	},
+	"Images": [],
+	"Processing": {
+		"Status": "completed",
+		"FailureDetails": "",
+		"StartedAt": "2024-11-23T20:19:28Z",
+		"EndedAt": "2024-11-23T20:20:17Z"
+	}
+}
+
+we send the document id and get its data , and also :
+per example I want to use the analysis that we do , we use ImageArchive100URL to get tar file and use those images as slides
